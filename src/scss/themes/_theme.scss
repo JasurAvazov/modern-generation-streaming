@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-    font-family: 'Onest';
+    font-family: 'Inter';
     &:focus,
     &:active{
         outline: none;
@@ -29,6 +29,7 @@ button{
 }
 a{
     color: inherit;
+    text-decoration: none;
 }
 ul{
     list-style-type: none;
