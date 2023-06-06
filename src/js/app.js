@@ -1,7 +1,13 @@
+// modules
 import * as functions from "./modules/functions.js";
+import * as select from "./modules/select.js";
 
+//components
+import * as quiz from "./components/quiz.js"
+
+// modules
 functions.isWebp();
+select.init();
 
-// import Swiper, { Navigation, Pagination } from 'swiper';
-
-// const swiper = new Swiper();
+//components
+quiz.init()
