@@ -9,6 +9,12 @@
     &:active{
         outline: none;
     }
+    &::-webkit-scrollbar{
+        width: 10px;
+        &-thumb{
+            background-color: #4473C5;
+        }
+    }
 }
 html,
 body{
