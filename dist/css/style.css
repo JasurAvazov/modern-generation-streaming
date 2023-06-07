@@ -191,8 +191,6 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 32px;
-  position: absolute;
-  left: 350px;
 }
 
 .header__nav-btn {
@@ -299,6 +297,7 @@
   font-size: 16px;
   line-height: 25px;
   color: #6A7181;
+  max-width: 320px;
 }
 
 .intro {
@@ -330,7 +329,7 @@
 
 .intro .container {
   position: relative;
-  padding: 90px 15px 65px;
+  padding: 110px 15px 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,6 +397,21 @@
 
 .assortment-title span {
   color: #4473C5;
+}
+
+.assortment__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 * {
