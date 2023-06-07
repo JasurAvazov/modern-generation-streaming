@@ -1,0 +1,46 @@
+.process {
+	.container {
+		padding: 140px 15px 90px;
+	}
+	&-title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 57px;
+		line-height: 70px;
+		text-transform: uppercase;
+		color: #191b1f;
+		margin-bottom: 50px;
+		span {
+			color: #6c9dd7;
+		}
+	}
+	&__cards {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		gap: 106px 30px;
+		&-card {
+			width: calc(100% / 3 - 20px);
+			svg {
+				margin-bottom: 15px;
+			}
+		}
+		&-title {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 26px;
+			text-transform: uppercase;
+            margin-bottom: 7px;
+            color: #191B1F;
+		}
+        &-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #6A7181;
+        }
+	}
+}

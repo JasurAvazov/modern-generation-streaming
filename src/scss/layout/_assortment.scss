@@ -1,0 +1,17 @@
+.assortment{
+    .container{
+        padding: 90px 15px 220px;
+    }
+    &-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #191B1F;
+        margin-bottom: 60px;
+        span{
+            color: #4473C5;
+        }
+    }
+}
