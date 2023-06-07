@@ -5,6 +5,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 12px 15px;
+        position: relative;
     }
     &__logo{
         max-width: 140px;
@@ -20,6 +21,9 @@
         justify-content: center;
         align-items: center;
         gap: 32px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         &-btn{
             font-style: normal;
             font-weight: 400;
