@@ -576,6 +576,68 @@
   line-height: 34px;
 }
 
+.advantages {
+  background-color: #ECF4FF;
+}
+
+.advantages .container {
+  padding: 133px 15px;
+}
+
+.advantages-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #191B1F;
+  margin-bottom: 60px;
+}
+
+.advantages-title span {
+  color: #4473C5;
+}
+
+.advantages__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 35px;
+}
+
+.advantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35px;
+}
+
+.advantages__item svg {
+  width: 130px;
+}
+
+.advantages__item-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #191B1F;
+}
+
 * {
   margin: 0;
   padding: 0;
