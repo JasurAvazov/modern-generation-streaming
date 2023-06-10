@@ -10,6 +10,22 @@ mixin header()
                 a(href="#directions").header__nav-btn Наши направления
                 a(href="#partners").header__nav-btn Наши заказчики
                 a(href="#footer").header__nav-btn Контакты
+            .header__burger.burger-open
+                span
+                span
+                span
             //- .header__lang
             //-     a(href="#").header__lang-btn Eng
             //-     a(href="#").header__lang-btn.active Рус
+        .header__menu
+            .header__menu-bg.burger-close
+            .header__menu-inner
+                .header__menu-logo
+                    img(src="@img/logo.svg", alt="" draggable="false")
+                .header__menu__nav.burger-close
+                    a(href="#").header__menu__nav-btn О компании
+                    a(href="#process").header__menu__nav-btn Процесс поставки
+                    a(href="#assortment").header__menu__nav-btn Ассоритимент
+                    a(href="#directions").header__menu__nav-btn Наши направления
+                    a(href="#partners").header__menu__nav-btn Наши заказчики
+                    a(href="#footer").header__menu__nav-btn Контакты
