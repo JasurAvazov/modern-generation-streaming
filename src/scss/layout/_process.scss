@@ -1,5 +1,9 @@
 .process {
 	overflow-x: hidden;
+	@include media (992){
+		background-color: #F9FAFB;
+		border-bottom: 1px solid #E6E7EA;
+	}
 	.container {
 		padding: 140px 15px 90px;
 		@include media (1400){
