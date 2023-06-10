@@ -10,11 +10,17 @@
         z-index: 1;
         height: 10px;
         box-shadow: 0px 0px 100px 200px white;
+        @include media (1400){
+            display: none;
+        }
     }
     &-bg{
         position: absolute;
         width: 100%;
         height: 100%;
+        @include media (1400){
+            display: none;
+        }
         img{
             width: 100%;
             height: 100%;
@@ -35,12 +41,32 @@
         display: flex;
         flex-wrap: wrap;
         gap: 120px;
+        @include media (1400){
+            padding: 100px 150px 100px 15px;
+        }
+        @include media (1200){
+            justify-content: space-between;
+            padding: 100px 150px 100px 15px;
+            gap: 50px;
+        }
+        @include media (576){
+            padding: 50px 15px;
+        }
     }
     &__col{
         max-width: 33%;
         display: flex;
         flex-direction: column;
         gap: 30px;
+        @include media (1400){
+            max-width: 28%;
+        }
+        @include media (1200){
+            max-width: 40%;
+        }
+        @include media (992){
+            max-width: 100%;
+        }
         &-title{
             font-style: normal;
             font-weight: 700;
@@ -68,5 +94,8 @@
         position: absolute;
         top: 360px;
         right: 15px;
+        @include media (1400){
+            top: 160px;
+        }
     }
 }
